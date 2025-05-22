@@ -29,8 +29,11 @@ public class StatistiqueTests {
 
     @Mock
     private ArrayList<Voiture> ListVoiture;
+<<<<<<< HEAD
 
     @Test
+=======
+>>>>>>> 8feec477e8dd1d472944214973cab1f4c254706c
     @BeforeEach
     public void CreationVoiture(){
 
@@ -58,6 +61,18 @@ public class StatistiqueTests {
 
         return echantillon;
     }
+<<<<<<< HEAD
+=======
+
+    @Test
+    public void testPrixMoyen_AucuneVoiture() {
+
+        ArithmeticException exception = assertThrows(ArithmeticException.class, () -> {
+            statistiqueImpl.prixMoyen();
+        });
+
+    }
+>>>>>>> 8feec477e8dd1d472944214973cab1f4c254706c
 
 }
 
