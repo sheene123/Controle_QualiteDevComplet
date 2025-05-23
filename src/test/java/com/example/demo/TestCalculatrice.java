@@ -35,7 +35,7 @@ public class TestCalculatrice {
     }
 
     @Test
-    public void testSoustraction() {
+    public void minusTest() {
         assertEquals(2.0f, calc.minus(5.0f, 3.0f));
         assertEquals(-8.0f, calc.minus(-5.0f, 3.0f));
         assertEquals(0.0f, calc.minus(4.5f, 4.5f));
